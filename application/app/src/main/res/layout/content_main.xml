@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.example.michael.myapplication.MainActivity"
+tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="You have burned"
+            android:id="@+id/topLabel1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/burned"
+            android:layout_below="@+id/topLabel1"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textSize="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="calories"
+            android:id="@+id/topLabel2"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/burned"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="#c5c5c5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Push Ups"
+            android:id="@+id/pushUpLabel1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/pushUp"
+            android:layout_below="@+id/pushUpLabel1"
+            android:layout_centerHorizontal="true"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:maxLength="8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Reps"
+            android:layout_below="@+id/pushUp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:id="@+id/pushUpLabel2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pushUpImg"
+            android:src="@drawable/pushup"
+            android:layout_alignBottom="@+id/pushUp"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sit Ups"
+            android:id="@+id/sitUpLabel1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/sitUp"
+            android:layout_below="@+id/sitUpLabel1"
+            android:layout_centerHorizontal="true"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:maxLength="8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Reps"
+            android:layout_below="@+id/sitUp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sitUpImg"
+            android:src="@drawable/situp"
+            android:layout_alignBottom="@+id/sitUp"
+            android:layout_alignStart="@+id/sitUp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="#c5c5c5" >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/jj"
+            android:layout_below="@+id/jjLabel1"
+            android:layout_centerHorizontal="true"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:maxLength="8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Jumping Jacks"
+            android:id="@+id/jjLabel1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Minutes"
+            android:layout_below="@+id/jj"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:id="@+id/jjLabel2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jjImg"
+            android:src="@drawable/jj"
+            android:layout_above="@+id/jjLabel2"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/jogging"
+            android:layout_below="@+id/joggingLabel1"
+            android:layout_centerHorizontal="true"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:maxLength="8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Jogging"
+            android:id="@+id/joggingLabel1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Minutes"
+            android:layout_below="@+id/jogging"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:id="@+id/textView2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/joggingImg"
+            android:src="@drawable/jogging"
+            android:layout_alignBottom="@+id/jogging"
+            android:layout_alignStart="@+id/jogging" />
+
+
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/reset"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+</ScrollView>
