@@ -10,11 +10,11 @@ Michael Wu ([wu.michael.m@berkeley.edu](mailto:wu.michael.m@berkeley.edu))
 
 ## Demo Video
 
-See [Calorie Counter in action] (https://youtu.be/cEPZhvUtL9k)
+See [Calorie Counter in action] (https://youtu.be/sjQGfcVK8L4)
 
 ## Screenshots
 
-<img src="screenshots/screen1.png" height="400" alt="Home screen"/>
+<img src="screenshots/screen4.png" height="400" alt="Converting Screen"/>
 <img src="screenshots/screen2.png" height="400" alt="Initial Screen"/>
 <img src="screenshots/screen3.png" height="400" alt="User Input"/>
 
